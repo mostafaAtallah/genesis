@@ -1,0 +1,339 @@
+MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+[build] 
+[build]   box2d.vcxproj -> D:\genesis\build\box2d\src\Debug\box2dd.lib
+[build]   main.cpp
+[build] D:\genesis\src\main.cpp(630,8): error C2011: '`anonymous-namespace'::ToolLinkRuntime': 'struct' type redefinition [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(639,8): error C2011: '`anonymous-namespace'::ResourceRuntime': 'struct' type redefinition [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(989,13): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(989,46): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(993,56): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(993,21): error C2737: 'jointStress': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(996,27): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(997,28): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(998,13): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1036,9): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1036,56): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1040,62): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1040,80): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1040,19): error C2737: 'position3d': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1041,34): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1041,32): error C2530: 'size': references must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1047,54): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1047,17): error C2737: 'angle': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1053,50): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1053,5): error C2660: 'DrawCubeV': function does not take 2 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\raylib\include\raylib.h(1570,12):
+[build]       see declaration of 'DrawCubeV'
+[build]       D:\genesis\src\main.cpp(1053,5):
+[build]       while trying to match the argument list '(Vector3, const Vector3)'
+[build]   
+[build] D:\genesis\src\main.cpp(1058,14): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1183,25): error C2079: 'resource' uses undefined struct '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1197,31): error C2660: 'b2MakeBox': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\collision.h(202,18):
+[build]       see declaration of 'b2MakeBox'
+[build]       D:\genesis\src\main.cpp(1197,31):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1200,23): error C2665: 'std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back': no overloaded function could convert all the argument types [D:\genesis\build\genesis.vcxproj]
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+[build]       could be 'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(_Ty &&)'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]           D:\genesis\src\main.cpp(1200,23):
+[build]           'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(_Ty &&)': cannot convert argument 1 from '<error type>' to '_Ty &&'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1200,33):
+[build]               Reason: cannot convert from '<error type>' to '_Ty'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1200,33):
+[build]               use of undefined type '`anonymous-namespace'::ResourceRuntime'
+[build]               D:\genesis\src\main.cpp(419,8):
+[build]               see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+[build]       or       'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(const _Ty &)'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]           D:\genesis\src\main.cpp(1200,23):
+[build]           'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(const _Ty &)': cannot convert argument 1 from '<error type>' to 'const _Ty &'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1200,33):
+[build]               Reason: cannot convert from '<error type>' to 'const _Ty'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1200,33):
+[build]               use of undefined type '`anonymous-namespace'::ResourceRuntime'
+[build]               D:\genesis\src\main.cpp(419,8):
+[build]               see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]       D:\genesis\src\main.cpp(1200,23):
+[build]       while trying to match the argument list '(<error type>)'
+[build]   
+[build] D:\genesis\src\main.cpp(1202,28): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1202,52): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1202,9): error C2660: 'b2Body_SetUserData': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\box2d.h(359,13):
+[build]       see declaration of 'b2Body_SetUserData'
+[build]       D:\genesis\src\main.cpp(1202,9):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1203,29): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1203,54): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1203,9): error C2660: 'b2Shape_SetUserData': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\box2d.h(677,13):
+[build]       see declaration of 'b2Shape_SetUserData'
+[build]       D:\genesis\src\main.cpp(1203,9):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1206,25): error C2079: 'resource' uses undefined struct '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1220,31): error C2660: 'b2MakeBox': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\collision.h(202,18):
+[build]       see declaration of 'b2MakeBox'
+[build]       D:\genesis\src\main.cpp(1220,31):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1223,23): error C2665: 'std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back': no overloaded function could convert all the argument types [D:\genesis\build\genesis.vcxproj]
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+[build]       could be 'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(_Ty &&)'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]           D:\genesis\src\main.cpp(1223,23):
+[build]           'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(_Ty &&)': cannot convert argument 1 from '<error type>' to '_Ty &&'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1223,33):
+[build]               Reason: cannot convert from '<error type>' to '_Ty'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1223,33):
+[build]               use of undefined type '`anonymous-namespace'::ResourceRuntime'
+[build]               D:\genesis\src\main.cpp(419,8):
+[build]               see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+[build]       or       'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(const _Ty &)'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]           D:\genesis\src\main.cpp(1223,23):
+[build]           'void std::vector<`anonymous-namespace'::ResourceRuntime,std::allocator<`anonymous-namespace'::ResourceRuntime>>::push_back(const _Ty &)': cannot convert argument 1 from '<error type>' to 'const _Ty &'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1223,33):
+[build]               Reason: cannot convert from '<error type>' to 'const _Ty'
+[build]           with
+[build]           [
+[build]               _Ty=`anonymous-namespace'::ResourceRuntime
+[build]           ]
+[build]               D:\genesis\src\main.cpp(1223,33):
+[build]               use of undefined type '`anonymous-namespace'::ResourceRuntime'
+[build]               D:\genesis\src\main.cpp(419,8):
+[build]               see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]       D:\genesis\src\main.cpp(1223,23):
+[build]       while trying to match the argument list '(<error type>)'
+[build]   
+[build] D:\genesis\src\main.cpp(1225,28): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1225,52): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1225,9): error C2660: 'b2Body_SetUserData': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\box2d.h(359,13):
+[build]       see declaration of 'b2Body_SetUserData'
+[build]       D:\genesis\src\main.cpp(1225,9):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1226,29): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1226,54): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1226,9): error C2660: 'b2Shape_SetUserData': function does not take 1 arguments [D:\genesis\build\genesis.vcxproj]
+[build]       C:\box2d-main\include\box2d\box2d.h(677,13):
+[build]       see declaration of 'b2Shape_SetUserData'
+[build]       D:\genesis\src\main.cpp(1226,9):
+[build]       while trying to match the argument list '()'
+[build]   
+[build] D:\genesis\src\main.cpp(1409,21): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1413,42): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1414,46): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1415,48): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1417,86): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1417,28): error C2737: 'toolHardEnough': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1420,45): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1420,33): error C2737: 'remaining': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1423,47): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1424,25): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1425,51): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1461,32): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1462,17): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1462,46): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1464,17): error C2027: use of undefined type '`anonymous-namespace'::ResourceRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(419,8):
+[build]       see declaration of '`anonymous-namespace'::ResourceRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1475,20): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1474,56): error C2672: 'std::count_if': no matching overloaded function found [D:\genesis\build\genesis.vcxproj]
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(650,33):
+[build]       could be 'iterator_traits<_DestIt>::difference_type std::count_if(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept'
+[build]           D:\genesis\src\main.cpp(1474,56):
+[build]           'iterator_traits<_DestIt>::difference_type std::count_if(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept': expects 4 arguments - 3 provided
+[build]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(633,45):
+[build]       or       'iterator_traits<_Iter>::difference_type std::count_if(_InIt,_InIt,_Pr)'
+[build]           D:\genesis\src\main.cpp(1474,56):
+[build]           Failed to specialize function template 'iterator_traits<_Iter>::difference_type std::count_if(_InIt,_InIt,_Pr)'
+[build]               D:\genesis\src\main.cpp(1474,56):
+[build]               With the following template arguments:
+[build]                   D:\genesis\src\main.cpp(1474,56):
+[build]                   '_InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+[build]                   D:\genesis\src\main.cpp(1474,56):
+[build]                   '_Pr=main::<lambda_ff829e182aa3e783bce9cfb3fe92f83c>'
+[build]   
+[build] D:\genesis\src\main.cpp(1474,19): error C2737: 'brokenJoints': const object must be initialized [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1508,17): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1508,50): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1512,75): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1512,86): error C7732: expected an expression before ']' [D:\genesis\build\genesis.vcxproj]
+[build] D:\genesis\src\main.cpp(1513,73): error C2027: use of undefined type '`anonymous-namespace'::ToolLinkRuntime' [D:\genesis\build\genesis.vcxproj]
+[build]       D:\genesis\src\main.cpp(410,8):
+[build]       see declaration of '`anonymous-namespace'::ToolLinkRuntime'
+[build]   
+[build] D:\genesis\src\main.cpp(1513,85): error C7732: expected an expression before ']' [D:\genesis\build\genesis.vcxproj]
+[proc] The command: "C:\Program Files\CMake\bin\cmake.EXE" --build d:/genesis/build --config Debug --target genesis -j 4 -- exited with code: 1
+[driver] Build completed: 00:00:04.325
