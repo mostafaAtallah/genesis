@@ -1,3 +1,4 @@
+using namespace genesis;
 #pragma once
 #include <algorithm>
 #include <array>
@@ -6,7 +7,6 @@
 #include <memory>
 #include <string>
 #include <vector>
-
 #include "raylib.h"
 #include "rlgl.h"
 #include "raymath.h"
@@ -17,7 +17,6 @@
 #include "FunctionalSystem.hpp"
 #include "ResourceNode.hpp"
 // #include "Constants.hpp"
-
 namespace
 {
 
@@ -671,7 +670,7 @@ namespace
         rlPopMatrix();
     }
 
-    void ReleaseMeshData(Mesh &mesh)
+    inline void ReleaseMeshData(Mesh &mesh)
     {
         if (mesh.vertices != nullptr || mesh.normals != nullptr || mesh.indices != nullptr || mesh.texcoords != nullptr)
         {
@@ -680,8 +679,7 @@ namespace
         mesh = Mesh{0};
     }
 
-    void ReleaseToolPartMesh(ToolPartRuntime &part)
-    {
+    inline void ReleaseToolPartMesh(genesis::ToolPartRuntime &part) {
         if (part.ownsMesh)
         {
             ReleaseMeshData(part.mesh);
@@ -689,8 +687,7 @@ namespace
         }
     }
 
-    struct SimulationState
-    {
+    struct SimulationState{
         b2WorldId worldId = b2_nullWorldId;
         b2BodyId floorId = b2_nullBodyId;
         b2BodyId leftWallId = b2_nullBodyId;
